@@ -7,3 +7,5 @@ doc/_build
 build
 dist
 .pypirc
+venv*
+.ipynb_checkpoints/usage-checkpoint.ipynb

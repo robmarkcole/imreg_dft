@@ -41,3 +41,15 @@ Project facts
 * Per-commit tests and documentation (see badges under the heading).
 * Originally developed by Christoph Gohlke (University of California, Irvine, USA)
 * Currently developed by Matěj Týč (Brno University of Technology, CZ)
+
+
+## usage.ipynb
+* `python3 -m venv venv`
+* `source venv/bin/activate`
+* `pip install --upgrade pip`
+* `pip install jupyterlab`
+* `pip install .`
+* `pip install matplotlib` # for imread
+* `venv/bin/jupyter lab`
+
+Issue on pip install pyfftw -> `error: Could not find the FFTW header 'fftw3.h'`. Resolved following [these instructions](https://github.com/pyFFTW/pyFFTW#mac-osx)
